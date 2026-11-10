@@ -1,0 +1,52 @@
+# Tracked on purpose: this file only holds the module list (no credentials). Never add secrets here.
+# Private Registry Modules Configuration
+private_registry_modules = {
+    "agent-pool" = {
+      source_directory = "agent-pool"
+    },
+    "dynamic-credentials-azure-configuration" = {
+      source_directory = "dynamic-credentials/azure/configuration"
+    },
+    "dynamic-credentials-azure-management" = {
+      source_directory = "dynamic-credentials/azure/management"
+    },
+    "organization-membership" = {
+      source_directory = "organization-membership"
+    },
+    "organization-settings" = {
+      source_directory = "organization-settings"
+    },
+    "policy-set" = {
+      source_directory = "policy-set"
+    },
+    "project" = {
+      source_directory = "project"
+    },
+    "registry-module" = {
+      source_directory = "registry-module"
+    },
+    "run-task" = {
+      source_directory = "run-task"
+    },
+    "saml-sso-and-scim" = {
+      source_directory = "saml-sso-and-scim"
+    },
+    "ssh-key" = {
+      source_directory = "ssh-key"
+    },
+    "team" = {
+      source_directory = "team"
+    },
+    "team-token" = {
+      source_directory = "team-token"
+    },
+    "variable-set" = {
+      source_directory = "variable-set"
+    },
+    "vcs-oauth" = {
+      source_directory = "vcs-oauth"
+    },
+    "workspace" = {
+      source_directory = "workspace"
+    }
+}
